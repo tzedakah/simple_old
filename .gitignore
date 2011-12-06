@@ -1,0 +1,14 @@
+.idea/**/*
+.bundle
+db/*.sqlite3
+log/*.log
+*.log
+tmp/**/*
+tmp/*
+doc/api
+doc/app
+*.swp
+*~
+*.komodoproject
+.komodotools
+DS_Store
