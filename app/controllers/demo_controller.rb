@@ -6,7 +6,7 @@ class DemoController < ApplicationController
   end
   
   def hello
-    # redirect_to("http://astroempires.com")
+    @array = [1,2,3,4,5]
   end
   
   def other_hello
