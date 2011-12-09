@@ -2,7 +2,8 @@
 
 <p>Hello World!</p>
 
-<%= 1 +1 %>
+ID: <%= @id %><br />
+Next page: <%= @page + 1 %><br />
 
 <% target = "world" %>
 
@@ -11,3 +12,9 @@
 <% @array.each do |n| %>
   <%= n %><br />
 <% end %>
+
+<%= link_to("My First Link", {:action => 'index'}) %>
+
+<hr />
+
+<%= params.inspect %>
